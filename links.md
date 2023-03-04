@@ -61,3 +61,21 @@ This course is for total Beginners, you will learn how to code using the  C Prog
 
 Whether you are an experienced programmer or not, this website is intended for everyone who wishes to learn the C programming language.
 There is no need to download anything - Just click on the chapter you wish to begin from, and follow the instructions.
+
+# Week 3
+
+## 1. [10 Commands to Check Disk Partitions and Disk Space on Linux](https://www.binarytides.com/linux-command-check-disk-partitions/)<br>
+
+In this post we are taking a look at some commands that can be used to check up the partitions on your system. The commands would check what partitions there are on each disk and other details like the total size, used up space and file system etc. Commands like fdisk, sfdisk and cfdisk are general partitioning tools that can not only display the partition information, but also modify them.
+
+## 2. [Working with tarballs on Linux](https://www.networkworld.com/article/3328840/working-with-tarballs-on-linux.html)<br>
+
+Tarballs provide a versatile way to back up and manage groups of files on Linux systems. Follow these tips to learn how to create them, as well as extract and remove individual files from them.
+
+## 3. [What Are Some Reasons You Would Use Disk Partitioning](https://ostoday.org/linux/what-are-some-reasons-you-would-use-disk-partitioning-before-installing-linux.html)<br>
+
+Partitioning a disk can make it easier to organize files, such as video and photo libraries, especially if you have a large hard drive. Creating a separate partition for your system files (the startup disk) can also help protect system data from corruption since each partition has its own file system.
+
+## 4. [What Is NFS? Understanding the Network File System](https://www.atera.com/blog/what-is-nfs-understanding-the-network-file-system/)<br>
+
+A Network File System or NFS is necessary for helping your business share files over a network. An NFS is a protocol that lets users on client computers access files on a network. You can access remote data and files from anything that links to the network you will use. All people within a network will have access to the same files, making file-sharing efforts easier.
