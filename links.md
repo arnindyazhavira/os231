@@ -79,3 +79,7 @@ Partitioning a disk can make it easier to organize files, such as video and phot
 ## 4. [What Is NFS? Understanding the Network File System](https://www.atera.com/blog/what-is-nfs-understanding-the-network-file-system/)<br>
 
 A Network File System or NFS is necessary for helping your business share files over a network. An NFS is a protocol that lets users on client computers access files on a network. You can access remote data and files from anything that links to the network you will use. All people within a network will have access to the same files, making file-sharing efforts easier.
+
+## 5. [What is a Bash Script?](https://ryanstutorials.net/bash-scripting-tutorial/bash-script.php)<br>
+
+This page is mostly foundation information. It's kinda boring but essential stuff that will help you to appreciate why and how certian things behave the way they do once we start playing about with the fun stuff (which I promise we'll do in the next section). Taking the time to read and understand the material in this section will make the other sections easier to digest so persevere and it'll be well worth your time.
