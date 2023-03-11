@@ -79,3 +79,37 @@ Partitioning a disk can make it easier to organize files, such as video and phot
 ## 4. [What Is NFS? Understanding the Network File System](https://www.atera.com/blog/what-is-nfs-understanding-the-network-file-system/)<br>
 
 A Network File System or NFS is necessary for helping your business share files over a network. An NFS is a protocol that lets users on client computers access files on a network. You can access remote data and files from anything that links to the network you will use. All people within a network will have access to the same files, making file-sharing efforts easier.
+
+# Week 4
+
+## 1. [Clear RAM Memory Cache, Buffer and Swap Space](https://www.tecmint.com/clear-ram-memory-cache-buffer-and-swap-space-on-linux/)<br>
+
+Like any other operating system, GNU/Linux has implemented memory management efficiently and even more than that. But if any process is eating away your memory and you want to clear it, Linux provides a way to flush or clear ram cache.
+
+## 2. [Memory Utilization in Linux](https://www.tothenew.com/blog/understanding-memory-utilization-in-linux/)<br>
+
+inux is an awesome operating system. It performs good with fewer resources and tries to maximize utilization of available resources automatically and because of this, it’s slightly difficult to understand resource utilization.
+
+## 3. [Find Out the Total Physical Memory (RAM) on Linux](https://www.baeldung.com/linux/total-physical-memory)<br>
+
+ometimes, we might need to check for total memory size on a server running Linux or we might need to use memory stats in shell scripts. Fortunately, we have access to numerous tools that we can use to check for total physical memory. In this tutorial, we’re going to take different approaches to serve that purpose by using several useful commands and tools.
+
+## 4. [Free vs. Available Memory in Linux](https://haydenjames.io/free-vs-available-memory-in-linux/)<br>
+
+At times we will need to know precisely how our Linux systems use memory. This article will examine how to use the free command-line utility to view memory usage on a Linux system. In doing so, we will clearly define the difference between free vs. available memory on Linux systems.
+
+## 5. [How to Use Pointers in C](https://linuxhint.com/use-pointers-c/)<br>
+
+In C, learning pointers is simple and enjoyable. Certain Programming language activities are easier to complete with pointers, while others, like dynamic memory allocation, seem impossible to complete without them. To be a competent C developer, it is thus beneficial to understand pointers. Within C, a pointer is a variable that holds the location of some other variable.
+
+## 6. [C development on Linux](https://linuxconfig.org/c-development-on-linux-pointers-and-arrays-vi)<br>
+
+You probably know that operating systems deal with addresses when storing values, just as you would label things inside a warehouse so you have an easy way of finding them when needed. On the other hand, an array can be defined as a collection of items identified by indexes. You will see later why pointers and arrays are usually presented together, and how to become efficient in C using them.
+
+## 7. [What Is Little-Endian And Big-Endian Byte Ordering?](https://www.section.io/engineering-education/what-is-little-endian-and-big-endian/)<br>
+
+Computers store data in memory in binary. One thing that is often overlooked is the formatting at the byte level of this data. This is called endianness and it refers to the ordering of the bytes. Specifically, little-endian is when the least significant bytes are stored before the more significant bytes, and big-endian is when the most significant bytes are stored before the less significant bytes.
+
+## 8. [How is Virtual Memory Translated to Physical Memory?](https://blogs.vmware.com/vsphere/2020/03/how-is-virtual-memory-translated-to-physical-memory.html)<br>
+
+Memory is one of the most important host resources. For workloads to access global system memory, we need to make sure virtual memory addresses are mapped to the physical addresses. There are several components working together to perform these translations as efficient as possible. This blog post will cover the basics on how virtual memory addresses are translated.
