@@ -113,3 +113,29 @@ Computers store data in memory in binary. One thing that is often overlooked is 
 ## 8. [How is Virtual Memory Translated to Physical Memory?](https://blogs.vmware.com/vsphere/2020/03/how-is-virtual-memory-translated-to-physical-memory.html)<br>
 
 Memory is one of the most important host resources. For workloads to access global system memory, we need to make sure virtual memory addresses are mapped to the physical addresses. There are several components working together to perform these translations as efficient as possible. This blog post will cover the basics on how virtual memory addresses are translated.
+
+# Week 5
+
+## 1. [Demand Paging in OS](https://digitalthinkerhelp.com/demand-paging-in-os-operating-system-examples-advantages-working/)<br>
+
+Demand paging is a process of swapping in the Virtual Memory system. In this process, all data is not moved from hard drive to main memory because while using this demand paging, when some programs are getting demand then data will be transferred.
+
+## 2. [Virtual and Physical Addresses](https://student.cs.uwaterloo.ca/~cs350/F06/slides/cs350_D.pdf)<br>
+
+Physical addresses are provided by the hardware, Virtual (or logical) addresses are provided by the OS kernel. OS divides physical memory into partitions. Different partitions can have different sizes
+
+## 3. [What is virtual memory?](https://techmonitor.ai/what-is/what-is-virtual-memory-4929986)<br>
+
+Virtual memory is a feature of an operating system that enables a computer to be able to compensate shortages of physical memory by transferring pages of data from random access memory to disk storage. This process is done temporarily and is designed to work as a combination of RAM and space on the hard disk. This means that when RAM runs low, virtual memory can move data from it to a space called a paging file. This process allows for RAM to be freed up so that a computer can complete the task.
+
+## 4. [How Big Should Your Page File or Swap Partition Be?](https://www.howtogeek.com/196238/how-big-should-your-page-file-or-swap-partition-be/)<br>
+
+According to an old rule of thumb, your page file or swap should be “double your RAM” or “1.5x your RAM.” But do you really need a 32 GB page file or swap if you have 16 GB of RAM?. You probably don’t need that much page file or swap space, which is a relief considering a modern computer might have a solid-state drive with very little space.
+
+## 5. [How to create and activate a paging file on the Linux command line](https://www.tremplin-numerique.org/en/how-to-create-and-activate-a-exchange-file-on-the-linux-command-line)<br>
+
+As you learn what a sawp file is and does, you will learn how to create and activate one on your Linux instance. Armed with this knowledge, you will be able to ensure that your system will no longer run out of memory.
+
+## 6. [What are the Page Replacement Algorithms?](https://afteracademy.com/blog/what-are-the-page-replacement-algorithms)<br>
+
+This lesson will introduce you to the concept of page replacement, which is used in memory management. You will understand the definition, need and various algorithms related to page replacement. A computer system has a limited amount of memory. Adding more memory physically is very costly. Therefore most modern computers use a combination of both hardware and software to allow the computer to address more memory than the amount physically present on the system. This extra memory is actually called Virtual Memory.
