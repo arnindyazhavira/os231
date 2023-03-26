@@ -139,3 +139,25 @@ As you learn what a sawp file is and does, you will learn how to create and acti
 ## 6. [What are the Page Replacement Algorithms?](https://afteracademy.com/blog/what-are-the-page-replacement-algorithms)<br>
 
 This lesson will introduce you to the concept of page replacement, which is used in memory management. You will understand the definition, need and various algorithms related to page replacement. A computer system has a limited amount of memory. Adding more memory physically is very costly. Therefore most modern computers use a combination of both hardware and software to allow the computer to address more memory than the amount physically present on the system. This extra memory is actually called Virtual Memory.
+
+# Week 6
+
+## 1. [Fork() in OS](https://www.csl.mtu.edu/cs4411.ck/www/NOTES/process/fork/create.html)<br>
+
+System call fork() is used to create processes. It takes no arguments and returns a process ID. The purpose of fork() is to create a new process, which becomes the child process of the caller. After a new child process is created, both processes will execute the next instruction following the fork() system call. Therefore, we have to distinguish the parent from the child.
+
+## 2. [Threads in Operating System](https://www.javatpoint.com/threads-in-operating-system)<br>
+
+A thread is a single sequential flow of execution of tasks of a process so it is also known as thread of execution or thread of control. There is a way of thread execution inside the process of any operating system. Apart from this, there can be more than one thread inside a process. Each thread of the same process makes use of a separate program counter and a stack of activation records and control blocks. Thread is often referred to as a lightweight process.
+
+## 3. [Multithreading in OS](https://afteracademy.com/blog/what-is-the-concept-of-multithreading-in-os-and-what-are-its-benefits)<br>
+
+You are already aware of the term multitasking that allows processes to run concurrently. Similarly, multithreading allows sub-processes (threads) to run concurrently or parallelly. Also, we can say that when multiple threads run concurrently it is known as multithreading. Some widely used programming languages like Java and Python allow developers to work on threads in their program. In this blog, we will learn what are the various multithreading models and the benefits of multithreading in OS. So, let's get started.
+
+## 4. [The exec family of system calls](http://www.it.uu.se/education/course/homepage/os/vt18/module-2/exec/)<br>
+
+The exec family of system calls replaces the program executed by a process. When a process calls exec, all code (text) and data in the process is lost and replaced with the executable of the new program. Although all data is replaced, all open file descriptors remains open after calling exec unless explicitly set to close-on-exec. In the below diagram a process is executing Program 1. The program calls exec to replace the program executed by the process to Program 2.
+
+## 5. [Using Makefiles](http://www.independent-software.com/operating-system-development-using-makefiles-and-second-stage-bootloader.html)<br>
+
+This web explain about USING MAKEFILES AND THE SECOND-STAGE BOOTLOADER.
