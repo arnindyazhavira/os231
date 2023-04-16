@@ -161,3 +161,38 @@ The exec family of system calls replaces the program executed by a process. When
 ## 5. [Using Makefiles](http://www.independent-software.com/operating-system-development-using-makefiles-and-second-stage-bootloader.html)<br>
 
 This web explain about USING MAKEFILES AND THE SECOND-STAGE BOOTLOADER.
+
+# Week 7
+
+## 1. [What is Semaphore?](https://www.guru99.com/semaphore-in-operating-system.html)<br>
+
+Semaphore is simply a variable that is non-negative and shared between threads. A semaphore is a signaling mechanism, and a thread that is waiting on a semaphore can be signaled by another thread. It uses two atomic operations, 1)wait, and 2) signal for the process synchronization.
+
+## 2. [Introduction to DEADLOCK](https://www.guru99.com/deadlock-in-operating-system.html)<br>
+
+Deadlock is a situation that occurs in OS when any process enters a waiting state because another waiting process is holding the demanded resource. Deadlock is a common problem in multi-processing where several processes share a specific type of mutually exclusive resource known as a soft lock or software.
+
+## 3. [What is a starvation problem in an operating system?](https://www.educative.io/edpresso/what-is-a-starvation-problem-in-an-operating-system)<br>
+
+Starvation is the problem that occurs when low priority processes get jammed for an unspecified time as the high priority processes keep executing. A steady stream of higher-priority methods will stop a low-priority process from ever obtaining the processor. Starvation happens if a method is indefinitely delayed. This can emerge once a method needs a further resource for execution that isn’t assigned.
+
+## 4. [Difference between Deadlock and Starvation](https://www.javatpoint.com/deadlock-vs-starvation)<br>
+
+Deadlock and starvation are conditions in which the processes requesting a resource have been delayed for a long time. However, deadlock and starvation are not the same things in many ways. Deadlock happens when every process holds a resource and waits for another process to hold another resource. In contrast, in starvation, the processes with high priorities continuously consume resources, preventing low priority processes from acquiring resources.
+In this article, you will learn the difference between deadlock and starvation. But before discussing the difference between deadlock and starvation, you must need to learn about deadlock and starvation.
+
+## 5. [Process Synchronization](https://www.studytonight.com/operating-system/process-synchronization)<br>
+
+In this tutorial, we will be covering the concept of Process synchronization in an Operating System.
+
+Process Synchronization was introduced to handle problems that arose while multiple process executions.
+
+Process is categorized into two types on the basis of synchronization, Independent Process and Cooperative Process.
+
+## 6. [Paterson Solution](https://www.javatpoint.com/os-paterson-solution)<br>
+
+Peterson's algorithm (or Peterson's solution) is a concurrent programming algorithm for mutual exclusion that allows two or more processes to share a single-use resource without conflict, using only shared memory for communication. It was formulated by Gary L. Peterson in 1981.[1] While Peterson's original formulation worked with only two processes, the algorithm can be generalized for more than two.
+
+## 7. [The Critical Section Problem](https://www.javatpoint.com/os-critical-section-problem)<br>
+
+Critical Section is the part of a program which tries to access shared resources. That resource may be any resource in a computer like a memory location, Data structure, CPU or any IO device. The critical section cannot be executed by more than one process at the same time; operating system faces the difficulties in allowing and disallowing the processes from entering the critical section. The critical section problem is used to design a set of protocols which can ensure that the Race condition among the processes will never arise. In order to synchronize the cooperative processes, our main task is to solve the critical section problem. We need to provide a solution in such a way that the following conditions can be satisfied.
