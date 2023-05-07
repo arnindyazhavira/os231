@@ -196,3 +196,40 @@ Peterson's algorithm (or Peterson's solution) is a concurrent programming algori
 ## 7. [The Critical Section Problem](https://www.javatpoint.com/os-critical-section-problem)<br>
 
 Critical Section is the part of a program which tries to access shared resources. That resource may be any resource in a computer like a memory location, Data structure, CPU or any IO device. The critical section cannot be executed by more than one process at the same time; operating system faces the difficulties in allowing and disallowing the processes from entering the critical section. The critical section problem is used to design a set of protocols which can ensure that the Race condition among the processes will never arise. In order to synchronize the cooperative processes, our main task is to solve the critical section problem. We need to provide a solution in such a way that the following conditions can be satisfied.
+
+# Week 8
+
+## 1. [Process Scheduling]( https://www.tutorialspoint.com/operating_system/os_process_scheduling.htm#:~:text=Definition,of%20a%20Multiprogramming%20operating%20systems.)<br>
+
+The process scheduling is the activity of the process manager that handles the removal of the running process from the CPU and the selection of another process on the basis of a particular strategy.
+
+Process scheduling is an essential part of a Multiprogramming operating systems. Such operating systems allow more than one process to be loaded into the executable memory at a time and the loaded process shares the CPU using time multiplexing.
+
+## 2. [Scheduling algorithms]( https://www.tutorialspoint.com/operating_system/os_process_scheduling_algorithms.htm)<br>
+
+A Process Scheduler schedules different processes to be assigned to the CPU based on particular scheduling algorithms. There are six popular process scheduling algorithms which we are going to discuss in this chapter −
+
+First-Come, First-Served (FCFS) Scheduling
+Shortest-Job-Next (SJN) Scheduling
+Priority Scheduling
+Shortest Remaining Time
+Round Robin(RR) Scheduling
+Multiple-Level Queues Scheduling
+
+## 3. [difference between Preemptive and Non-Preemptive scheduling]( https://afteracademy.com/blog/what-is-the-difference-between-preemptive-and-non-preemptive-scheduling)<br>
+
+In the Operating System, the process scheduling algorithms can be divided into two broad categories i.e. Preemptive Scheduling and Non-Preemptive Scheduling. In this blog, we will learn the difference between these two.
+
+## 4. [Big O Notation Explained]( https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/)<br>
+
+In this article, we will have an in-depth discussion about Big O notation. We will start with an example algorithm to open up our understanding. Then, we will go into the mathematics a little bit to have a formal understanding. After that we will go over some common variations of Big O notation. In the end, we will discuss some of the limitations of Big O in a practical scenario. A table of contents can be found below.
+
+## 5. [Process State Models]( https://slaystudy.com/process-state-models-in-operating-system/)<br>
+
+When a process is first created by the OS, it initializes the program control block for the process and the new process enters the system in Not-running state. After some time, the currently running process will be interrupted by some events, and the OS will move the currently running process from Running state to Not-running state. The dispatcher then selects one process from Not-running processes and moves the process to the Running state for execution.
+
+## 6. [Multiple Processors Scheduling]( https://www.javatpoint.com/multiple-processors-scheduling-in-operating-system)<br>
+
+Multiple processor scheduling or multiprocessor scheduling focuses on designing the system's scheduling function, which consists of more than one processor. Multiple CPUs share the load (load sharing) in multiprocessor scheduling so that various processes run simultaneously. In general, multiprocessor scheduling is complex as compared to single processor scheduling. In the multiprocessor scheduling, there are many processors, and they are identical, and we can run any process at any time.
+
+The multiple CPUs in the system are in close communication, which shares a common bus, memory, and other peripheral devices. So we can say that the system is tightly coupled. These systems are used when we want to process a bulk amount of data, and these systems are mainly used in satellite, weather forecasting, etc.
